@@ -1,0 +1,80 @@
+/* make sidebar nav vertical */ 
+.sidebar-nav .navbar .navbar-collapse {
+  padding: 0;
+  max-height: none;
+}
+.sidebar-nav .navbar ul {
+  float: none;
+}
+.sidebar-nav .navbar ul:not {
+  display: block;
+}
+.sidebar-nav .navbar li {
+  float: none;
+  display: block;
+}
+.sidebar-nav .navbar li a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+body{
+  font-family: 'Roboto Condensed','Lato','Hind Guntur', sans-serif;
+}
+
+.container{
+  width:100%;
+  height:100%;
+  padding:0;
+}
+
+.navbar{
+  position: relative;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color:#FFF;
+  height:1000px;
+  border-width: 0 4px 0 0;
+}
+
+.navbar-nav{
+  padding-top: 25px;
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: #ffd180;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+
+
+a:visited{
+  color: none;
+}
+
+}
+.col-sm-4{
+  padding-right: 0;
+  margin-right: 0;
+}
+
+#main-content{
+  margin-left:0;
+  padding, margin: 0;
+  background-color: gray;
+}
