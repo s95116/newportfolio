@@ -32,15 +32,15 @@ body{
   position: relative;
   text-align: center;
   background-color:#FFF;
-  height:auto;
-  border-width: 0 4px 0 0;
+  height: auto;
+  border-width: 0 3px 0 0;
   border-color: #23222D;
   border-radius: 0;
 }
 
 .navbar-nav{
   padding-top: 25px;
-  margin-bottom: 300px;
+  margin-bottom: auto;
 }
 
 .sidebar-nav .navbar li a{
@@ -56,14 +56,19 @@ body{
   color: none;
 }
 
-}
-.col-sm-4{
-  padding-right: 0;
-  margin-right: 0;
+#bottom-content{
+    margin-top: 475px;
 }
 
 #main-content{
   margin-left:0;
   padding, margin: 0;
-  background-color: gray;
+}
+
+.col-sm-9{
+    padding-left: 0;
+}
+
+.col-sm-3{
+    padding-right: 0;
 }
