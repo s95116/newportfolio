@@ -1,7 +1,14 @@
+body{
+  font-family: 'Roboto Condensed','Lato','Hind Guntur', sans-serif;
+}
+
+.row{
+  margin-right: 0px; 
+}
+
 /* make sidebar nav vertical */ 
 .sidebar-nav .navbar .navbar-collapse {
   padding: 0;
-  max-height: none;
 }
 .sidebar-nav .navbar ul {
   float: none;
@@ -18,9 +25,7 @@
   padding-bottom: 12px;
 }
 
-body{
-  font-family: 'Roboto Condensed','Lato','Hind Guntur', sans-serif;
-}
+
 
 .container{
   width:100%;
@@ -40,7 +45,7 @@ body{
 
 .navbar-nav{
   padding-top: 25px;
-  margin-bottom: auto;
+/*  margin-bottom: auto;*/
 }
 
 .sidebar-nav .navbar li a{
@@ -57,7 +62,7 @@ body{
 }
 
 #bottom-content{
-    margin-top: 475px;
+    margin-top: 266px;
 }
 
 #main-content{
@@ -65,10 +70,55 @@ body{
   padding, margin: 0;
 }
 
-.col-sm-9{
-    padding-left: 0;
+.col-sm-3{
+    padding-right: 0px;
 }
 
-.col-sm-3{
-    padding-right: 0;
+#main-image{
+  padding-left: 20px;
+}
+
+#carousel-example-generic .carousel{
+  width:1043px;
+  height:313px;
+}
+
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none
+}
+
+
+.img-rounded{
+  width: 75%;
+  padding-top: 15px;
+  padding-left:5px;
+}
+
+.site-image{
+  padding-top: 14px;
+  width:100%;
+}
+
+.first-image{
+  padding-left: 15px;
+}
+
+.title{
+  color:#23527C;
+}
+
+.description{
+
+}
+
+
+
+
+
+@media (min-width: 768px)
+{.col-sm-3 
+  {
+    width: 22%;
+  }
 }
